@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+#NavigationWall {
+    
+    height: 450px;
+    
+    
+    
+    
+}
+#logo{
+    width: 110px;
+    height: 70px;
+}
+#img{
+    background-image: url("./walls/geometry.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    
+
+}
+#navbar {
+    /*background-color: rgba(0,0,0);*/
+    background-image: url("https://i.gifer.com/1TaP.gif");
+    background-size: contain;
+    font-family: 'Courier Prime', monospace;
+}
+#photo{
+    background-image: url("./walls/myProfileGF.jpg");
+    background-size: contain;
+    border-radius: 50%;
+    margin: auto;
+    opacity: .30;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 50px;
+
+    
+}
+#title{
+    font-family: 'Courier Prime', monospace;
+    
+}
+#titleIntro{
+    font-family: 'Courier Prime', monospace;
+}
+#textContentIntro{
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+}
+#titleSkills{
+    font-family: 'Courier Prime', monospace;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#imgTech{
+    
+   
+    width: 150px;
+    height: 150px;
+}
+#imgTechReact{
+    
+   
+    width: 180px;
+    height: 150px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#imgTechSsh{
+    
+   
+    width: 240px;
+    height: 150px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#others{
+    margin-top: 130px;
 }
-
-.App-link {
-  color: #61dafb;
+#skills{
+    margin-top: 100px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#titleContact{
+    margin-top: 150px;
+    font-family: 'Courier Prime', monospace;
+    font-size: 35px;
+    
+}
+#in{
+    width: 60px;
+    height: 60px;
+    border: 2px solid cyan;
+    border-radius: 50%;
+}
+#email{
+    width: 50px;
+    height: 50px;
+    border: 2px solid cyan;
+    border-radius: 50%;}
+#phone{
+    width: 50px;
+    height: 50px;
+    border: 2px solid cyan;
+    border-radius: 50%;
+}
+#data{
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+    color: gainsboro;
+}
+#contact{
+    background-image: url("https://i.gifer.com/1TaP.gif");
+    backgroud-size: contain;
 }
