@@ -31,7 +31,7 @@ export default class Navigation extends Component {
                     </div>
                     <div id="title" className=" mx-auto mt-4">
                         <h1 className="mt-5 mr-4 text-light">Guillermo Ferraz</h1>
-                        <h4 className="text-light">Web developer Backend & Frontend</h4>
+                        <h4 className="text-light">Web developer Backend & Frontend </h4>
                     </div>
                 </div>
               </div>
