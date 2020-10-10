@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/webProfile/static/css/main.951266e6.chunk.css",
-    "main.js": "/webProfile/static/js/main.f198c690.chunk.js",
-    "main.js.map": "/webProfile/static/js/main.f198c690.chunk.js.map",
+    "main.css": "/webProfile/static/css/main.acd66793.chunk.css",
+    "main.js": "/webProfile/static/js/main.fa5372ce.chunk.js",
+    "main.js.map": "/webProfile/static/js/main.fa5372ce.chunk.js.map",
     "runtime-main.js": "/webProfile/static/js/runtime-main.8552924c.js",
     "runtime-main.js.map": "/webProfile/static/js/runtime-main.8552924c.js.map",
-    "static/js/2.8298230e.chunk.js": "/webProfile/static/js/2.8298230e.chunk.js",
-    "static/js/2.8298230e.chunk.js.map": "/webProfile/static/js/2.8298230e.chunk.js.map",
+    "static/css/2.05a0ae32.chunk.css": "/webProfile/static/css/2.05a0ae32.chunk.css",
+    "static/js/2.54a47ac5.chunk.js": "/webProfile/static/js/2.54a47ac5.chunk.js",
+    "static/js/2.54a47ac5.chunk.js.map": "/webProfile/static/js/2.54a47ac5.chunk.js.map",
     "index.html": "/webProfile/index.html",
-    "precache-manifest.804595eb5b5e72c2e9152447088bd244.js": "/webProfile/precache-manifest.804595eb5b5e72c2e9152447088bd244.js",
+    "precache-manifest.d677e0a5a1935f2073a81970fce2b62d.js": "/webProfile/precache-manifest.d677e0a5a1935f2073a81970fce2b62d.js",
     "service-worker.js": "/webProfile/service-worker.js",
-    "static/css/main.951266e6.chunk.css.map": "/webProfile/static/css/main.951266e6.chunk.css.map",
-    "static/js/2.8298230e.chunk.js.LICENSE.txt": "/webProfile/static/js/2.8298230e.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/webProfile/static/media/myProfileGF.7b06703a.jpg"
+    "static/css/2.05a0ae32.chunk.css.map": "/webProfile/static/css/2.05a0ae32.chunk.css.map",
+    "static/css/main.acd66793.chunk.css.map": "/webProfile/static/css/main.acd66793.chunk.css.map",
+    "static/js/2.54a47ac5.chunk.js.LICENSE.txt": "/webProfile/static/js/2.54a47ac5.chunk.js.LICENSE.txt",
+    "static/media/debian.png": "/webProfile/static/media/debian.132c9cd7.png",
+    "static/media/kali.png": "/webProfile/static/media/kali.c1a51ee8.png",
+    "static/media/linux.png": "/webProfile/static/media/linux.1a95be4a.png",
+    "static/media/App.css": "/webProfile/static/media/neuro.2c17945d.gif",
+    "static/media/ssh.png": "/webProfile/static/media/ssh.756f05e6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8552924c.js",
-    "static/js/2.8298230e.chunk.js",
-    "static/css/main.951266e6.chunk.css",
-    "static/js/main.f198c690.chunk.js"
+    "static/css/2.05a0ae32.chunk.css",
+    "static/js/2.54a47ac5.chunk.js",
+    "static/css/main.acd66793.chunk.css",
+    "static/js/main.fa5372ce.chunk.js"
   ]
 }
