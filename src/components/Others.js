@@ -21,7 +21,7 @@ export default class Others extends Component {
                             </div>
                             <div className="mx-auto">
                                 <div><img className="shadow" id="imgTechSsh" src="https://img.helpnetsecurity.com/wp-content/uploads/2019/06/09094054/kali-linux.jpg"/></div>
-                                <p className="text-center">Debian</p>
+                                <p className="text-center">Kali Linux</p>
                             </div>
                         </div>
                        
