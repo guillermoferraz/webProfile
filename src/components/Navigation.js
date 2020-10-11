@@ -19,7 +19,7 @@ export default class Navigation extends Component {
                   url={neuro}
                   className='react-player position-absolute m-0 p-0'
                   height="130vh"
-                  width="110vw"
+                  width="130vw"
                   
                   backgroud-size="cover"
                   loop
