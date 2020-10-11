@@ -9,7 +9,7 @@ export default class Home extends Component {
           
               
             <div id="home" className="position-relative">
-                <p>Hello World.</p>
+                <p>  Hello World .</p>
                 <p>Welcome to my technical profile as a web developer.</p>
             </div>
           
