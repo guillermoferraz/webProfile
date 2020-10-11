@@ -47,8 +47,13 @@ body{
 #video{
     width: 100vw;
     height: 100vh;
+    top: -15%;
+    margin-left: -1%;
     
     
+}
+ReactPlayer{
+    background-image: contain;
 }
 
 #navbar {

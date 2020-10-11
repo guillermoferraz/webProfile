@@ -21,8 +21,8 @@ export default class Im extends Component {
 
                   url={neuro}
                   className='react-player position-absolute m-0 p-0'
-                  width='110%'
-                  height='100%'
+                  width='110vw'
+                  height='130vh'
                   loop
                   playing
 
