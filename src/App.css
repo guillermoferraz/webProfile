@@ -1,10 +1,11 @@
 body{
     padding:0;
     margin:0;
+    background-color: black;
+    overflow: hidden;
     /* background-image: url("./walls/geometry.jpg");
     background-size: cover; */
-    height: 100%;
-    width: 100%
+   
 }
 #home{
     color: #03e9f4;
@@ -36,14 +37,20 @@ body{
      
 }
 #img{
-    background-image: url("./walls/neuro.gif");
-    background-size: cover;
-    height: 100%;
-    width: 100%;
+    /* background-image: url("./walls/neuro.mp4"); */
+    height: 100vh;
+    width: 100vw;
     position: absolute;
     
 
 }
+#video{
+    width: 100vw;
+    height: 100vh;
+    
+    
+}
+
 #navbar {
     /*background-color: rgba(0,0,0);*/
     /* background-image: url("https://i.gifer.com/1TaP.gif");

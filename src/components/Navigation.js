@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import ReactPlayer from 'react-player';
+import neuro from '../walls/neuro.mp4';
+
+
 import '../App.css';
 
 
@@ -9,6 +13,22 @@ export default class Navigation extends Component {
           
             <div id="NavigationWall">
              <div id="img">
+                <div id="video" className="position-absolute">
+                <ReactPlayer 
+
+                  url={neuro}
+                  className='react-player position-absolute m-0 p-0'
+                  width='110%'
+                  height='100%'
+                  backgroud-size="cover"
+                  loop
+                  playing
+
+
+
+                  />
+
+                </div>
                 <div id="maskImgWall">
                     <div id="gf">
                       <Link to="/im" id="link">
