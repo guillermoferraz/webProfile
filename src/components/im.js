@@ -41,9 +41,9 @@ export default class Im extends Component {
                     <div id="photo" className=" mx-auto">    
                     </div>
                    
-                    <div id="title" className=" mx-auto mt-4">
+                    <div id="title" className=" mx-auto">
                         
-                        <p  className=" mt-5">Web developer</p>
+                        <p  >Web developer</p>
                         <p  >Backend & Frontend </p>
                     </div>
                 </div>

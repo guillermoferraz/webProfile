@@ -15,14 +15,14 @@ export default class Contact extends Component {
                         <div><p id="inText" className="m-0 p-0 ml-5">Linkedin</p> </div>
                     </div>
 
-                    <div className="form-inline mt-5">
+                    <div id="emailText" className="form-inline ">
                         <i id="in" className="far fa-envelope"></i>
                         <div><p id="eText" className="m-0 p-0 ml-5 ">guillermoferrazdst@gmail.com</p> </div>
                     </div>
 
-                    <div className="form-inline mt-5">
+                    <div className="form-inline ">
                         <i id="in" className="fas fa-mobile-alt"></i>
-                        <div><p id="eText" className="m-0 p-0 ml-5 ">+(598)099 218 225</p> </div>
+                        <div id="phoneText" ><p id="eText" className="m-0 p-0 ml-5 ">+(598)099 218 225</p> </div>
                     </div>
                 </div>
 

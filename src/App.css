@@ -3,6 +3,7 @@ body{
     margin:0;
     background-color: black;
     overflow: hidden;
+    
     /* background-image: url("./walls/geometry.jpg");
     background-size: cover; */
    
@@ -45,8 +46,8 @@ body{
 
 }
 #video{
-    width: 100vw;
-    height: 100vh;
+    width: 150vw;
+    height: 150vh;
     top: -15%;
     margin-left: -23%;
     
@@ -87,8 +88,12 @@ ReactPlayer{
     color: #03e9f4;
     animation: zoomInRight;
     animation-duration: 2s;
+
     
     
+}
+#title{
+    margin-top: 50px;
 }
 
 #titleIntro{
@@ -96,6 +101,7 @@ ReactPlayer{
     text-shadow: 4px 4px 4px #03e9f4;
     animation: zoomInRight;
     animation-duration: 2s;
+    
     
 }
 #whoIm{
@@ -107,6 +113,7 @@ ReactPlayer{
 #textContentIntro{
     color: #03e9f4;
     font-size: 18px;
+    text-align: center;
     animation: zoomInRight;
     animation-duration: 2s;
 }
@@ -166,6 +173,7 @@ ReactPlayer{
 #in{
     font-size: 40px;
     color: #03e9f4;
+    margin-top: 20px;
     
        
 }
@@ -179,21 +187,11 @@ ReactPlayer{
     color: #03e9f4;
     text-shadow: 4px 4px 4px #03e9f4;
 }
-#email{
-    width: 50px;
-    height: 50px;
-    border: 2px solid cyan;
-    border-radius: 50%;}
-#phone{
-    width: 50px;
-    height: 50px;
-    border: 2px solid cyan;
-    border-radius: 50%;
+#emailText{
+    margin-top:20px;
 }
-#data{
-    font-family: 'Courier Prime', monospace;
-    font-size: 20px;
-    color: gainsboro;
+#phoneText{
+    margin-top: 40px;
 }
 /* #contact{
     background-image: url("https://i.gifer.com/1TaP.gif");
@@ -353,7 +351,7 @@ ReactPlayer{
     }
 
 }
-
+/* about btn */
 
 #about{
     position: relative;
@@ -1102,5 +1100,564 @@ ReactPlayer{
     }
 
 }
+@media(max-width: 320px) , (max-width: 360px) {
+   body{
+       overflow-y: auto;
+       min-width: 320px;
+       
+   }
 
-
+    #video{
+        top: -60%;
+        left: 17%;
+           
+    }
+    #home{
+        left: 15%;
+        top: 60px;
+        
+    }#whoIm{
+        width: 90%;
+        top: 65%;
+        left: 17%;
+    }
+    #textContentIntro{
+        font-size: 18px;
+        text-align: center;
+        
+    }
+    #gf{
+       left: -15px;
+       margin-top: 35px; 
+    }
+    #link{
+        width: 320px;
+        font-size: 15px;
+    }
+    #photo{
+        height: 120px;
+        width: 120px;
+        
+        top: 30px;
+    }
+    #title p {
+        font-size: 15px;
+        margin-top: -10px;
+        position: relative;;
+        
+    }
+    #title{
+        left:140px;
+        margin-top: 160px;
+        position: absolute;
+    }
+    #iconArrow{
+        font-size: 40px;
+        top: 20px;
+        left: 50px;
+    }
+    #about{
+        margin-left: 5px;
+        margin-top: 490px;
+        position: absolute;
+    }
+    #linkAbout{
+        width: 100px;
+        padding: 15px 15px;
+    }
+    #techBtn{
+        position: absolute;
+        margin-top: 490px;
+        margin-left: 100px;
+    }
+    #linkTech{
+        width: 110px;
+        padding: 15px 15px;
+    }
+    #contactBtn{
+        position: absolute;
+        margin-top: 490px;
+        margin-left: 210px;
+    }
+    #linkContact{
+        padding: 15px 15px;
+        width: 120px;
+    }
+    #moreBtn{
+        position: absolute;
+        margin-top: 490px;
+        margin-left: 290px;
+    }
+    #linkMore{
+        padding: 15px 15px;
+        width: 80px;
+    }
+    #skills{
+        width: 180px;
+        height: 180px;
+        top: 340px;
+        left: 15px;
+        
+    }
+    #titleSkills{
+        font-size: 15px;
+        margin-left: 100px;
+        width: 100%;
+    }
+    #imgTech{
+        width: 130px;
+        height: 130px;
+    }
+    #imgTechReact{
+        width: 160px;
+        height: 130px;
+    }
+    #cardSkills{
+        margin-left: 100%;
+    }
+    #liSkills{
+        font-size: 12px;
+        width: 170px;
+    }
+    #rowContact{
+        top: 65%;
+        left: 10%;
+    }
+    #in{
+        font-size: 30px;
+        margin-top: 15px;
+    }
+    #eText{
+        font-size: 20px;
+        top: -30px;
+        position: relative;
+    }
+    #inText{
+        font-size: 20px;
+    }
+    #phoneText{
+        position: relative;
+        top: 15px;
+        left: -20px;
+    }
+}
+@media(max-width: 411px) {
+    body{
+        overflow-y: auto;
+        min-width: 411px;
+        
+    }
+ 
+     #video{
+         top: -60%;
+            
+     }
+     #home{
+         left: 22%;
+         margin-top: -35%;
+     }#whoIm{
+         width: 90%;
+         top: 65%;
+         left: 17%;
+     }
+     #textContentIntro{
+         font-size: 18px;
+         text-align: center;
+        
+         
+     }
+     #gf{
+        margin-left: 20%;
+        margin-top: 35px; 
+     }
+     #link{
+         width: 320px;
+         font-size: 15px;
+     }
+     #photo{
+         height: 120px;
+         width: 120px;
+         left: 50px;
+         top: 30px;
+     }
+     #title p {
+         font-size: 15px;
+         
+     }
+     #title{
+         left:180px;
+         margin-top: 160px;
+         position: absolute;
+     }
+     #iconArrow{
+         font-size: 40px;
+         top: 20px;
+         left: 50px;
+     }
+     #about{
+         margin-left: 25px;
+         margin-top: 570px;
+         position: absolute;
+     }
+     #linkAbout{
+         width: 100px;
+         padding: 15px 15px;
+     }
+     #techBtn{
+         position: absolute;
+         margin-top: 570px;
+         margin-left: 135px;
+     }
+     #linkTech{
+         width: 110px;
+         padding: 15px 15px;
+     }
+     #contactBtn{
+         position: absolute;
+         margin-top: 570px;
+         margin-left: 245px;
+     }
+     #linkContact{
+         padding: 15px 15px;
+         width: 120px;
+     }
+     #moreBtn{
+         position: absolute;
+         margin-top: 570px;
+         margin-left: 335px;
+     }
+     #linkMore{
+         padding: 15px 15px;
+         width: 80px;
+     }
+     #skills{
+         width: 180px;
+         height: 180px;
+         top: 380px;
+         left: 55px;
+         
+     }
+     #titleSkills{
+         font-size: 15px;
+         margin-left: 100px;
+         width: 100%;
+     }
+     #imgTech{
+         width: 130px;
+         height: 130px;
+     }
+     #imgTechReact{
+         width: 160px;
+         height: 130px;
+     }
+     #cardSkills{
+         margin-left: 100%;
+     }
+     #liSkills{
+         font-size: 12px;
+         width: 170px;
+     }
+     #rowContact{
+         top: 65%;
+         left: 10%;
+     }
+     #in{
+         font-size: 30px;
+         margin-top: 15px;
+     }
+     #eText{
+         font-size: 20px;
+         top: -30px;
+         position: relative;
+     }
+     #inText{
+         font-size: 20px;
+     }
+     #phoneText{
+         position: relative;
+         top: 15px;
+         left: -20px;
+     }
+ }
+ @media(max-width: 280px)  {
+    body{
+        overflow-y: auto;
+        min-width: 280px;
+        
+    }
+ 
+     #video{
+         top: -60%;
+            
+     }
+     #home{
+         left: 6%;
+         margin-top: -35%;
+     }#whoIm{
+         width: 90%;
+         top: 65%;
+         left: 17%;
+     }
+     #textContentIntro{
+         font-size: 18px;
+         text-align: center;
+         
+     }
+     #gf{
+        margin-left: 17px;
+        margin-top: 35px; 
+     }
+     #link{
+         width: 320px;
+         font-size: 15px;
+     }
+     #photo{
+         height: 120px;
+         width: 120px;
+         left: 50px;
+         top: 30px;
+     }
+     #title p {
+         font-size: 15px;
+         
+     }
+     #title{
+         left:120px;
+         margin-top: 160px;
+         position: absolute;
+     }
+     #iconArrow{
+         font-size: 40px;
+         top: 20px;
+         left: 50px;
+     }
+     #about{
+         margin-left: 60px;
+         margin-top: 490px;
+         position: absolute;
+     }
+     #linkAbout{
+         width: 100px;
+         padding: 15px 15px;
+     }
+     #techBtn{
+         position: absolute;
+         margin-top: 490px;
+         margin-left: 180px;
+     }
+     #linkTech{
+         width: 110px;
+         padding: 15px 15px;
+     }
+     #contactBtn{
+         position: absolute;
+         margin-top: 600px;
+         margin-left: 60px;
+     }
+     #linkContact{
+         padding: 15px 15px;
+         width: 120px;
+     }
+     #moreBtn{
+         position: absolute;
+         margin-top: 600px;
+         margin-left: 180px;
+     }
+     #linkMore{
+         padding: 15px 15px;
+         width: 80px;
+     }
+     #skills{
+         width: 180px;
+         height: 180px;
+         top: 380px;
+         left: 12px;
+         
+     }
+     #titleSkills{
+         font-size: 15px;
+         margin-left: 100px;
+         width: 100%;
+     }
+     #imgTech{
+         width: 130px;
+         height: 130px;
+     }
+     #imgTechReact{
+         width: 160px;
+         height: 130px;
+     }
+     #cardSkills{
+         margin-left: 90%;
+     }
+     #liSkills{
+         font-size: 10px;
+         width: 150px;
+     }
+     #rowContact{
+         top: 65%;
+         left: 10%;
+     }
+     #in{
+         font-size: 20px;
+         margin-top: 10px;
+     }
+     #eText{
+         font-size: 16px;
+         top: -30px;
+         position: relative;
+     }
+     #inText{
+         font-size: 16px;
+     }
+     #phoneText{
+         position: relative;
+         top: 15px;
+         left: -20px;
+     }
+ }
+ @media  ( width: 414px) {
+    body{
+        overflow-y: auto;
+        min-width: 414px;
+        
+    }
+ 
+     #video{
+         top: -60%;
+         left: 17%;
+            
+     }
+     #home{
+         left: 35%;
+         top: 60px;
+         
+     }#whoIm{
+         width: 90%;
+         top: 65%;
+         left: 25%;
+     }
+     #textContentIntro{
+         font-size: 18px;
+         text-align: center;
+         
+     }
+     #gf{
+        left: 0px;
+        margin-top: 35px; 
+     }
+     #link{
+         width: 320px;
+         font-size: 15px;
+     }
+     #photo{
+         height: 120px;
+         width: 120px;
+         left:120px;
+         top: 45px;
+     }
+     #title p {
+         font-size: 15px;
+         margin-top: -10px;
+         position: relative;;
+         
+     }
+     #title{
+         left:250px;
+         margin-top: 200px;
+         position: absolute;
+     }
+     #iconArrow{
+         font-size: 40px;
+         top: 20px;
+         left: 140px;
+     }
+     #masterBtn{
+         top: 90px;
+         left: 100px;
+     }
+     #about{
+         margin-left: 5px;
+         margin-top: 490px;
+         position: absolute;
+     }
+     #linkAbout{
+         width: 100px;
+         padding: 15px 15px;
+     }
+     #techBtn{
+         position: absolute;
+         margin-top: 490px;
+         margin-left: 100px;
+     }
+     #linkTech{
+         width: 110px;
+         padding: 15px 15px;
+     }
+     #contactBtn{
+         position: absolute;
+         margin-top: 490px;
+         margin-left: 210px;
+     }
+     #linkContact{
+         padding: 15px 15px;
+         width: 120px;
+     }
+     #moreBtn{
+         position: absolute;
+         margin-top: 490px;
+         margin-left: 290px;
+     }
+     #linkMore{
+         padding: 15px 15px;
+         width: 80px;
+     }
+     #skills{
+         width: 180px;
+         height: 180px;
+         top: 440px;
+         left: 100px;
+         
+     }
+     #titleSkills{
+         font-size: 15px;
+         margin-left: 100px;
+         width: 100%;
+     }
+     #imgTech{
+         width: 130px;
+         height: 130px;
+     }
+     #imgTechReact{
+         width: 160px;
+         height: 130px;
+     }
+     #cardSkills{
+         margin-left: 100%;
+     }
+     #liSkills{
+         font-size: 12px;
+         width: 170px;
+     }
+     #rowContact{
+         top: 65%;
+         left: 30%;
+     }
+     #in{
+         font-size: 30px;
+         margin-top: 15px;
+     }
+     #eText{
+         font-size: 20px;
+         top: -30px;
+         position: relative;
+     }
+     #inText{
+         font-size: 20px;
+     }
+     #phoneText{
+         position: relative;
+         top: 15px;
+         left: -20px;
+     }
+ }

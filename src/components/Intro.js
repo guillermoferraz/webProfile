@@ -9,8 +9,8 @@ export default class Intro extends Component {
           
               
             <div className="container mx-auto position-absolute" id="whoIm">
-              <h1 id="titleIntro" className="text-center mt-5">Who I am ?</h1>
-              <div id="textContentIntro" className="container text-center mt-5">
+              <h1 id="titleIntro" className="text-center ">Who I am ?</h1>
+              <div id="textContentIntro" className="container ">
                   <p>I am a backend and frontend web developer.
                       Constant learning is part of my day to day.
 
