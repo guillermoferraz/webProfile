@@ -1,0 +1,305 @@
+body {
+    background-color: black;
+    display: inline;
+    
+}
+
+#maskImgWall{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#gf{
+    position: relative;
+    top: 100px;
+    padding: 0;
+    /* font-family: consolas; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+#link{
+   
+    position: relative;
+    display: inline-block;
+    padding: 35px 30px;
+    margin: 20px 0;
+    color: #03e9f4;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    overflow: hidden;
+    letter-spacing: 4px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+    width: 300px;
+    
+}
+
+/* #link:nth-child(1)
+{
+    filter: hue-rotate(290deg);
+}
+#link:nth:child(3)
+{
+    filter: hue-rotate(110deg);
+} */
+
+#link:hover{
+    background: #03e9f4;
+    color:#050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+}
+#link span{
+    position: absolute;
+    display: block;
+
+}
+#link span:nth-child(1)
+{
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,#03e9f4);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1
+{
+    0%
+    {
+        left: -100%;
+    }
+    50%,100%
+    {
+        left: 100%;
+    }
+
+}
+#link span:nth-child(2)
+{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent,#03e9f4);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2
+{
+    0%
+    {
+        top: -100%;
+    }
+    50%,100%
+    {
+        top: 100%;
+    }
+
+}
+#link span:nth-child(3)
+{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,#03e9f4);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+@keyframes animate3
+{
+    0%
+    {
+        right: -100%;
+    }
+    50%,100%
+    {
+        right: 100%;
+    }
+
+}
+#link span:nth-child(4)
+{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent,#03e9f4);
+    animation: animate4 1s linear infinite;
+    animation-delay: -0.25s;
+}
+@keyframes animate4
+{
+    0%
+    {
+        bottom: -100%;
+    }
+    50%,100%
+    {
+        bottom: 100%;
+    }
+
+}
+
+#titleIndex h3, h4 {
+    color: gainsboro;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+
+}
+#titleIndex{
+    margin-top: 25%;
+  }
+  #techSkill h6 {
+    color:gainsboro;
+    margin: auto;
+    background-color: rgba(192, 192, 192, 0.2);
+    padding: 15px;
+    width: 80%;
+  }
+#techSkill{
+ margin-top: 15%;   
+}
+#mySlider{
+    width: 45%;
+    margin:auto;
+    margin-top: 100px;
+}
+#logs{
+    font-size: 140px ;
+    text-align: center;
+    
+}
+#html {
+    color: orange;
+}
+#css{
+    color: dodgerblue;
+}
+#js{
+    color: yellow;
+}
+#react{
+    color: royalblue;
+}
+#bootstrap{
+    color: orchid;
+}
+#node{
+    color: limegreen;
+}
+#git{
+    color: darkorange;
+}
+#php{
+    color: steelblue;
+}
+#docker{
+    color: royalblue;
+}
+#db{
+    color: darkcyan;
+}
+
+#logs h6{
+    color: gainsboro;
+}
+
+#wText{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+#wText h5{
+    margin-top: 25px;
+    color: gainsboro;
+}
+#wText p{
+    margin-top: 20px;
+}
+
+#brackets{
+    font-size: 30px;
+}
+#textMe{
+    width: 65%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    color: gainsboro;
+}
+#meP{
+    margin-top: 80px;
+    width: 40%;
+    margin:auto;
+    text-align: center;
+}
+#meT{
+    margin-top: 10px;
+    color: gainsboro;
+}
+#meP p{
+    margin-top: 40px;
+    color: gainsboro;
+}
+article p {
+    margin-top: 25px;
+    color: gainsboro;
+    text-align: center;
+}
+#aboutMe{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+}
+#aboutMe p{
+    color: gainsboro;
+    margin-top: 25px;
+}
+#photo{
+    width: 150px;
+    height: 150px;
+    opacity: .60;
+    border: 2px solid cyan;
+    border-radius: 50%;
+    
+}
+#techSkillC h6 {
+    color:gainsboro;
+    margin-left: 4px;
+ }
+#techSkillC{
+ margin-top: 15%;
+ margin: auto;
+ background-color: rgba(192, 192, 192, 0.2);
+ padding: 15px;
+ width: 100%;
+ 
+
+}
+
+#techSkillC i{
+    color: cyan;
+    font-size: 22px;
+    margin-right: 4px;
+}
+#techSkillC p {
+    color: gainsboro;
+    margin-right: 10px;
+}
+#in {
+    margin-left: 50px;
+}
