@@ -128,7 +128,7 @@ Me gusta utilizar diversas herramientas  asi como tambien aprender de nuevas, pe
                         
                     </Slider>
                     <article>
-                        <p>Como anteriormente mencione , desarrollo diferentes tipos de apps y servicios, api rest , apps con conexiones a base de datos relacionales ,no relacionales o ambas. Aplicaciones CRUD , autenticaciones de usuarios , encriptado de password , passport y todo lo tipico que conllevan las aplicaciones con login , cunetas de usuarios y consumo de alguna api rest. Etc. 
+                        <p>Como anteriormente mencione , desarrollo diferentes tipos de apps y servicios, api rest , apps con conexiones a base de datos relacionales ,no relacionales o ambas. Aplicaciones CRUD , autenticaciones de usuarios , encriptado de password , passport y todo lo tipico que conllevan las aplicaciones con login , cuentas de usuarios y consumo de alguna api rest. Etc. 
 Utilizo diferentes tipos de servidores de desarrollo, no tengo preferidos pero destaco a Node js por el gran potencial que este posee.
 
 Otras de las tecnologias y lenguajes que utilizo: Electron , Ionic, python, redux, ejs y handlebars como motores de plantillas.</p>
